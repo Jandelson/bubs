@@ -1,0 +1,435 @@
+	html { height: 100% }
+	body { background:url(./img/bg.gif) repeat #f5f5f4; height: 100%; margin: 0px; padding: 0px }
+	#map_canvas { box-shadow: 5px 5px 5px 0px; margin-right: 0px; margin-left: 60px; margin-top: 1px; width:90%; height: 70%}
+	#div_al{ margin-right:0px; margin-left:250px }
+	#cab{}
+	#rod{ background-color:}
+	#logo {margin-left:50px; margin-top:10px};
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+		font-weight: 900;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 5%;
+	}
+	
+	strong
+	{
+	}
+	
+	a
+	{
+		color: #0000FF;
+	}
+	
+	a:hover
+	{
+		text-decoration: none;
+	}
+	
+	.container
+	{
+		margin: 0px auto;
+		width: 1200;
+	}
+/*Info Box*/
+.infoBox { background-color: #FFF; width: 400px; height: 80px; font-family: Arial, Helvetica, sans-serif; font-size: 15px; border: 5px solid #3fa7d8; border-radius: 13px; padding-top: 0.80em; padding-left: 1.80em; }
+/*Info Box*/
+/*********************************************************************************/
+/* List Styles                                                                   */
+/*********************************************************************************/
+
+	ul.style1
+	{
+	}
+
+
+/*********************************************************************************/
+/* Social Icon Styles                                                            */
+/*********************************************************************************/
+
+	ul.contact
+	{
+		margin: 0;
+		padding: 2em 0em 0em 0em;
+		list-style: none;
+	}
+	
+	ul.contact li
+	{
+		display: inline-block;
+		padding: 0em 0.30em;
+		font-size: 1em;
+	}
+	
+	ul.contact li span
+	{
+		display: none;
+		margin: 0;
+		padding: 0;
+	}
+	
+	ul.contact li a
+	{
+		color: #FFF;
+	}
+	
+	ul.contact li a:before
+	{
+		display: inline-block;
+		background: #3f3f3f;
+		width: 40px;
+		height: 40px;
+		line-height: 40px;
+		border-radius: 20px;
+		text-align: center;
+		color: #FFFFFF;
+	}
+	
+	ul.contact li a.icon-twitter:before { background: #2DAAE4; }
+	ul.contact li a.icon-facebook:before { background: #39599F; }
+	ul.contact li a.icon-dribbble:before { background: #C4376B;	}
+	ul.contact li a.icon-tumblr:before { background: #31516A; }
+	ul.contact li a.icon-rss:before { background: #F2600B; }
+
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button
+	{
+		display: inline-block;
+		margin-top: 2em;
+		background: #00A4D9;
+		border-radius: 5px;
+		line-height: 4em;
+		padding: 0 3em;
+		-webkit-transition: all .25s ease-in-out;
+		-moz-transition: all .25s ease-in-out;
+		-ms-transition: all .25s ease-in-out;
+		-o-transition: all .25s ease-in-out;
+		transition: all .25s ease-in-out;
+		letter-spacing: 0.25em;
+		text-decoration: none;
+		text-transform: uppercase;
+		outline: 0;
+		white-space: nowrap;
+		font-weight: 900;
+		font-size: 1em !important;
+		color: #fff !important;
+	}
+
+		.button:hover
+		{
+			background: #18ACD9;
+			-webkit-transition: all .25s ease-in-out;
+			-moz-transition: all .25s ease-in-out;
+			-ms-transition: all .25s ease-in-out;
+			-o-transition: all .25s ease-in-out;
+			transition: all .25s ease-in-out;
+		}
+		
+		.button:active
+		{
+			background: #0091BD;
+			-webkit-transition: all .25s ease-in-out;
+			-moz-transition: all .25s ease-in-out;
+			-ms-transition: all .25s ease-in-out;
+			-o-transition: all .25s ease-in-out;
+			transition: all .25s ease-in-out;
+		}
+		
+			.button-big
+			{
+				line-height: 4em;
+				padding: 0 3em;
+				font-size: 1.1em !important;
+			}
+
+/*********************************************************************************/
+/* input Style                                                                  */
+/*********************************************************************************/
+
+	input.search
+	{
+		display: normal;
+		background:url(../img/search.png) left no-repeat;
+		padding: 1px 4px 1px 25px;
+		border-radius: 5px;
+		line-height:2em;
+		padding: 10 2em;			
+		outline: 0;
+		font-weight:100;
+		font-size: 1em !important;
+		color: black !important;
+	}
+	
+	select.select{
+		background:url() left no-repeat;
+		padding: 10px 4px 1px 10px;
+		outline: 0;
+		font-weight:100;
+		font-size: 1em !important;
+		color: black !important;
+	}
+
+	input.button {
+		background:url(../img/accept.png) left no-repeat;
+		line-height:3em;
+		color:#050;
+		background-color:#E4E9EE;
+		margin:2px;
+		}
+				
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	#wrapper
+	{
+		position: relative;
+		padding: 0em 0em 5em 0em;
+		background: #FFF;
+		box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
+	}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+#main_navigation {
+	top:10px;
+	font-size:15px;
+	height:50px;
+	float:right;
+	margin:20px;
+
+}
+.main-menu {
+	position:relative;
+	z-index:22;
+	font-family:'Droid Sans', arial, serif;
+}
+.main-menu ul {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.main-menu ul a:hover {
+	border-bottom:2px solid #0091ed;
+}
+.main-menu ul li {
+	position:relative;
+	display:inline;
+	float:left;
+	font-size:14px;
+}
+.main-menu ul li a,.main-menu ul li a:link,.main-menu ul li a:visited {
+	line-height:40px;
+	color:#363636;
+	font-size:13px;
+	
+}
+.main-menu ul li a:hover {
+	color:#0091ed;	
+}
+.main-menu ul li a {
+	display:block;
+	text-decoration:none;
+	overflow:hidden;
+	padding:0px 15px;
+}
+* html .main-menu ul li a {
+	display:inline-block;
+}
+.main-menu ul li ul {
+	position:absolute;
+	left:0px;
+	display:block;
+	visibility:hidden;
+}
+.main-menu ul li ul li {
+	display:list-item;
+	float:none;
+}
+.main-menu ul li ul li a {
+	width:160px;
+	padding:5px 10px;
+}
+.main-menu ul ul {
+	background:#FFF;
+	border:1px solid #e0e0e0;
+
+}
+.main-menu ul ul li a,.main-menu ul ul li a:link,.main-menu ul ul li a:visited {
+	height:100%;
+	line-height:20px;
+	background:transparent !important;
+	border-bottom:dotted 1px #e1e1e1;
+	padding:5px 10px!important;
+}
+.main-menuz ul li ul li a:hover,.main-menu ul ul li a:hover {
+	text-decoration:none!important;
+	margin:0 0px;
+	color:#0091ed;
+}
+.main-menuz ul ul li ul li a:hover,.main-menu ul ul ul li a:hover {
+	text-decoration:none!important;
+	width:155px;
+}
+
+
+/*********************************************************************************/
+/* Page                                                                          */
+/*********************************************************************************/
+
+	#page
+	{
+		overflow: hidden;
+		width: 1100px;
+		padding: 0em 50px 5em 50px;
+		background: #F4F4F4;
+		color: #191919;
+	}
+	
+	#page .arrow-down {
+		border-top-color: #FFF !important;
+	}
+	
+	#page .title
+	{
+		padding: 3em 0em;
+		letter-spacing: 0.10em;
+		text-transform: uppercase;
+	}
+	
+	#page .title h2
+	{
+		font-size: 2em;
+		color: #474747;
+	}
+	
+	#page .title .byline
+	{
+		padding-top: 0.50em;
+		font-size: 0.90em;
+		color: #858585;
+	}
+
+	#page #box1
+	{
+		float: left;
+		width: 500px;
+	}
+
+	#page #box2
+	{
+		float: right;
+		width: 500px;
+	}
+	
+	#page a
+	{
+		color: #01A9DC;
+	}
+
+/*********************************************************************************/
+/* Content                                                                       */
+/*********************************************************************************/
+
+	#content
+	{
+	}
+
+/*********************************************************************************/
+/* list auto complete */
+/*********************************************************************************/
+.ac_results {
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+}
+
+.ac_results ul {
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ac_results li {
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	font: menu;
+	font-size: 12px;
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	background: white url('images/indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #eee;
+}
+
+.ac_over {
+	background-color: #0A246A;
+	color: white;
+}
+/*********************************************************************************/
+/* Footer                                                                        */
+/*********************************************************************************/
+
+	#footer
+	{
+	}
+
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		padding: 6em 0em;
+		font-size: 0.70em;
+		letter-spacing: 0.20em;
+		text-align: center;
+		text-transform: uppercase;
+		text-shadow: 1px 1px 1px #FFF;
+		color: #6A6A6A;
+	}
+	
+	#copyright a
+	{
+		color: #747474;
+	}

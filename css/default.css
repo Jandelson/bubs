@@ -1,0 +1,546 @@
+html { 
+	height: 100%;
+}
+body {
+    background:url(./img/g.gif) repeat #f5f5f4;
+    height: 100%;
+    margin: 0px;
+    padding: 0px 
+}
+/*---------------------------Tela Geral Conteudo--------------------------------------------------*/
+
+.tgc{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 70px;}
+
+.tgc p{
+    margin-top: 25px;
+}
+
+.tgc a{
+    text-decoration: none;
+    color: #185D99;
+    margin-top: 25px;
+    padding: 10px;
+    line-height: 35px;
+}
+
+.tgc img{
+    width: 4%;
+    vertical-align:bottom;
+}
+/**************** Estilo do formul�rio de Contato **************************/
+#container{
+    width: 600px;
+    height: 500px;
+    background-color: #5fb7f8;
+    margin: 0 auto;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border: 6px;
+    border-style: outset;
+    border-color: #0055BB;
+}
+
+#conteudo{
+    margin: 0 auto;
+    position: relative;
+    width:100%;
+    padding: 0 0 0 40px;
+}
+#conteudo label{
+    display:block;
+    margin-top:20px;
+    letter-spacing:1px;
+    font-weight: bold;
+    color: #0000AA;
+}
+#conteudo input, textarea {
+    width:85%;
+    height:20px;
+    background:#fff;
+    border:2px solid #dedede;
+    border-radius: 5px;
+    padding:5px;
+    margin-top:3px;
+    margin: auto;
+    font-size:0.9em;
+    color:#0055FF;
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: inset;
+    border-color: #0055BB;
+}
+#conteudo textarea {
+    height:180px;
+    font-size: 1em;
+}
+#cabecalho h1{
+    padding: 5px;
+    margin: 0 0 10px 33px;
+    color: #0000AA;
+    font-weight: bold;
+}
+#conteudo .botao_mail{
+    width:127px;
+    height:38px;
+    border:2px;
+    margin-top:15px;
+    cursor:pointer;
+    float: right;
+    border-radius: 5px;
+    background-color: #ccaabb;
+    color: #fff;
+    margin-right: 79px;
+    background: #18ACD9;
+    border-style: outset;
+    border-color: #0055BB;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+#conteudo .botao_mail:hover{
+    background: #aaddff;
+    color: #000;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    border-style: outset;
+    border-color: #0055BB;
+}
+#map_canvas{
+    /*box-shadow: 5px 5px 5px 0px;
+	/*border-style: outset;
+	border-width: 6px;
+	border-color:#a1b2FF;*/
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 1200px;
+    height: 550px;
+    resize:none;
+    -moz-box-shadow: 5px 5px 5px black;
+    -webkit-box-shadow: 5px 5px 5px black;
+    -o-box-shadow: 5px 5px 5px black;
+    -ms-box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px black;
+}
+#div_al{
+    margin: -11px;
+    /*width: 75%;*/
+    padding: 15px;
+    border-radius: 7px;
+    border-style: outset;
+    border-width: 3px;
+    border-color:#DEDEDE;
+    background-color:#185D99;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#texto p{
+    margin: auto;
+    padding:0px 30px 10px 30px;
+    text-align: justify;
+    font-size: 1.25em;
+    margin-bottom: 0px;
+}
+#svgelem{
+    padding:0px;
+    margin: auto;
+    margin-bottom:-10px;
+}
+#retangulo{
+    padding:0px;
+    margin:0px;
+}
+
+/* Temporariodiv {
+    border-style: dashed;
+    border-width: 1px;
+    border-color: yellow;
+}
+/* Temporario */
+
+h1, h2, h3{
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+}
+p, ol, ul{
+    margin-top: 0;
+}ol, ul{
+     padding: 0;
+     list-style: none;
+ }
+p.box{
+    line-height: 5%;
+}
+p#titulo_ubs{
+    padding-top:0.80em;
+    padding-bottom: 5px;
+}
+#rec_el{
+    margin-bottom: 2px;
+    border-radius: 10px;
+    margin-left: -5px;
+    margin-top: -5px;
+    margin: auto;
+    background-color: #3fa7d8;
+    color: #FFF;
+}
+strong{
+
+}
+a{
+    color: #0000FF;
+}
+a:hover{
+    text-decoration: none;
+}
+/**********************************************************************************//* Formata��o Cabe�alho/**********************************************************************************/
+#cab{
+/*Para Mozilla/Gecko (Firefox etc) */
+    background: -moz-linear-gradient(top, #F5F5F5, #DCDCDC) repeat-X;
+    /* Para WebKit (Safari, Google Chrome etc) */
+    background: -webkit-gradient(linear, left top, left bottom, from(#F5F5F5), to(#DCDCDC)) repeat-X;
+    background: -webkit-linear-gradient(top, #F5F5F5, #DCDCDC);
+    /* Para IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#F5F5F5, endColorstr=#DCDCDC)";
+    /* Para IE 5.5 - 7 */	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F5F5F5, endColorstr=#DCDCDC);
+    /* IE 10 */
+    background: -ms-linear-gradient(top, #F5F5F5, #DCDCDC);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #F5F5F5, #DCDCDC);
+}
+#cab img{
+    margin-left:10px;
+    border:0px;
+}
+/*Info Box*/
+.infoBox {
+    background-color: #FFF;
+    width: 400px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: 5px solid #3fa7d8;
+    border-radius: 13px;
+    padding-top: 0px;
+    padding-left: 1.40em;
+}
+/*Info Box*//*********************************************************************************/
+/******************** List Styles*//*********************************************************************************/
+ul.style1{
+
+}
+/* Social Icon Styles*********************************************************************************/
+ul.contact{
+    margin: 0;
+    padding: 2em 0em 0em 0em;
+    list-style: none;
+}
+ul.contact li{
+    display: inline-block;
+    padding: 0em 0.20em;
+    font-size: 1em;
+}
+ul.contact li span{
+    display: none;
+    margin: 0;
+    padding: 0;
+}
+ul.contact li a{
+    color: #FFF;
+}
+ul.contact li a:before{
+    display: inline-block;
+    background: #3f3f3f;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+ul.contact li a.icon-twitter:before {
+    background: #2DAAE4;
+}
+ul.contact li a.icon-facebook:before {
+    background: #39599F;
+}
+ul.contact li a.icon-dribbble:before {
+    background: #C4376B;
+}
+ul.contact li a.icon-tumblr:before {
+    background: #31516A;
+}
+ul.contact li a.icon-rss:before {
+    background: #F2600B;
+}
+/**********************************//* Button Style */
+.button{
+    display: inline-block;
+    margin-top: 2em;
+    background: #00A4D9;
+    border-radius: 5px;
+    line-height: 3em;
+    padding: 0 1.9em;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    letter-spacing: 0.25em;
+    text-decoration: none;
+    text-transform: uppercase;
+    outline: 0;
+    white-space: nowrap;
+    font-weight: 900;
+    font-size: 1.1em ;
+    color: #000;
+}
+.button:hover{
+    background: #18ACD9;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+.button:active{
+    background: #0091BD;
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+/*****************************//* input Style********************************************************/
+input.search{
+/*display: normal;	*/
+    background:url(../img/search.png) left no-repeat;
+    padding: 0px 35px 0px 35px;
+    border-radius: 5px;
+    line-height:1.8em;
+    outline: 0;
+    font-weight: 100;
+    font-size: 1.1em;
+    color: #DDCCDD;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 98.7%;
+    height: 35px;
+}
+/* Formata��o Checkbox */
+.checkboxes label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: #DDCCEE;
+    text-align: left;
+    padding-left: 3px;
+    margin-bottom: 1px;
+    padding-bottom: 0;
+}
+input[type=checkbox]:checked + label {
+    text-decoration: underline;
+}
+/* Checkbox Rota */
+#orig{
+    background:url() left no-repeat;
+    padding: 0px 2px 0px 2px;
+    border-radius: 5px;
+    line-height:1.8em;
+    outline: 0;
+    font-weight: 100;
+    font-size: 1.1em;
+    color: #DDCCDD;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 65.85%;
+    height: 35px;
+}
+/************** Trocando a cor do placeholder ****************************/
+::-webkit-input-placeholder { /* WebKit browsers */	color:    #DDCCDD;}
+::-moz-placeholder { /* Mozilla Firefox 19+ */	color:    #DDCCDD;}
+:-ms-input-placeholder { /* Internet Explorer 10+ */	color:    #DDCCDD;}
+::-o-placeholder { /* Opera */	color:    #DDCCDD;}
+select.select{
+    background:url() right no-repeat #185D99;
+    padding: 8px 2px 8px 2px;
+    outline: 0;
+    overflow: hidden;
+    font-weight:100;
+    font-size: 1.1em !important;
+    color: #DDCCDD !important;
+    border-radius: 5px;
+    border-width: 0px;
+}
+#cidades{
+/*margin:auto;*/
+    width: 100%;
+    background-color:#185D99;
+}
+
+input.button {
+/*background:url(../img/accept.png) left no-repeat;*/
+    line-height:2.2em;
+    /*float:right;*/
+    color:#050;
+    background-color:#E4E9EE;
+    margin:0px;
+}
+
+/***************//* Wrappers  **********************/
+#wrapper{
+    position: relative;
+    padding: 0em 0em 5em 0em;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
+}
+/*************//* Menu *****************/
+.main-menu {
+    position:absolute;
+    left: 890px;
+    top: 3px;
+    border:none;
+    margin: 0;
+    font-size:1.1em;
+    font-family: Arial, sans-serif;
+}
+.main-menu li {
+    list-style: none;
+    margin: 0;
+    display: inline;
+}
+.main-menu li a {
+    height:1px;
+     /* IE5.0 bug */
+    padding: 5px 10px;
+    margin:0;
+    /*border: 2px solid #083166; */
+    border-radius: 8px;
+    background: #185D99;
+    text-decoration: none;
+    text-decoration:
+}
+.main-menu li a:link {
+    color: #fff;
+}
+.main-menu li a:visited {
+    color: #fff;
+}
+.main-menu li a:hover {
+    background: #4C98F5;
+    color: #fff;
+}
+*#main_navigation {
+    margin:20px;
+    margin-top:40px;
+    margin-bottom:0px;
+    font-size:1.1em;
+    height:50px;
+    float:right;
+}
+/****************************//* Page    **********************************/
+#page{
+    overflow: hidden;
+    width: 1100px;
+    padding: 0em 50px 5em 50px;
+    background: #F4F4F4;
+    color: #191919;
+}
+#page .arrow-down {
+    border-top-color: #FFF !important;
+}
+#page .title{
+    padding: 3em 0em;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+}
+#page .title h2{
+    font-size: 2em;	color: #474747;
+}
+#page .title .byline{
+    padding-top: 0.50em;
+    font-size: 0.90em;
+    color: #858585;
+}
+#page #box1{
+    float: left;
+    width: 500px;
+}
+#page #box2{
+    float: right;
+    width: 500px;
+}
+#page a{
+    color: #01A9DC;
+}/**********************//* Content   **************************/
+#content{
+
+}
+/*******//* Footer  ****************************************/
+#rod{
+    position:absolute;
+    width:100%;
+    margin: auto;
+    /*height: 25px;*/
+    padding: 0px;
+    /*Para Mozilla/Gecko (Firefox etc) */
+    background: -moz-linear-gradient(top, #F5F5F5, #DCDCDC) repeat-X;
+    /* Para WebKit (Safari, Google Chrome etc) */
+    background: -webkit-gradient(linear, left top, left bottom, from(#F5F5F5), to(#DCDCDC)) repeat-X;
+    background: -webkit-linear-gradient(top, #F5F5F5, #DCDCDC);
+    /* Para IE 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#F5F5F5, endColorstr=#DCDCDC)";
+    /* Para IE 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#F5F5F5, endColorstr=#DCDCDC);
+    	/* IE 10 */
+    background: -ms-linear-gradient(top, #F5F5F5, #DCDCDC);
+    /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #F5F5F5, #DCDCDC );
+}
+/********************//* Copyright  *//**********************/
+#copyright{
+    padding: 1.1em 0em 1.1em 0em;
+    font-size: 0.70em;
+    letter-spacing: 0.20em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#tab {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 35px;
+    width: 95%;
+    text-align: left;
+    border-collapse: collapse;
+    border-color: #C1CDCD;
+}
+
+#tab tr {
+    height: 10px;
+}
+
+#tab thead tr {
+    background: #A2B5CD;
+}
+
+#tab tr td:first-child, #tab tr td:last-child {
+    width: 150px;
+}
+
+#tab tbody tr:nth-child(odd) {
+    background: #C1CDCD
+}
+
+.filtroColuna {
+    width: 100%;
+    border: solid 1px;
+}
