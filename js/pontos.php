@@ -1,13 +1,5 @@
 <?
 function connect(){
-	/*$servidor = "cpmy0031.servidorwebfacil.com";
-	$usuario  = "jandelso";
-	$senha    = "jan12345";
-	$db = "jandelso_bubs";
-	$conn = mysql_connect($servidor, $usuario, $senha);
-	$db = mysql_select_db($db);
-	
-	*/
 	$servidor = "127.0.0.1";
 	$usuario  = "root";
 	$senha    = "admmysqljan";
